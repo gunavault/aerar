@@ -1,0 +1,17 @@
+{
+  "name": "aerar",
+  "version": "1.0.0",
+  "description": "Simple GET API proxy for FortiRecon ACI stealer infections",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/index.js",
+    "dev": "node --watch --env-file-if-exists=.env src/index.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
